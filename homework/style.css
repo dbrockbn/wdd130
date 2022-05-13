@@ -1,0 +1,16 @@
+h1, h2, h3, h4, h5, h6 {
+    background-color:pink;
+    color:black;
+}
+h1, h2, h3, h5 {color:white}
+h1 {
+    font-size: 60px;
+}
+h2 {
+    font-size: 20px;
+}
+body {
+    text-align:center;
+    background-color:pink;
+
+}
