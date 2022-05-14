@@ -1,0 +1,80 @@
+.home-tital {
+    color:antiquewhite;
+}
+h4 {
+    color:rgb(81, 82, 99);
+}
+body {
+    background-color: #fcfbfb; 
+}
+header {
+    background-color:rgba(20,30,13, .7);
+}
+nav a:hover {
+    background-color: black;
+    color: whitesmoke
+}
+.book, .join {
+    background-color: purple;
+    color:antiquewhite;
+}
+.book, .join {
+    background-color: aqua;
+    color: antiquewhite;
+    text-decoration: none;
+}
+#background {
+    background-color:antiquewhite;
+}
+.msg {
+    background-color: lightcoral;
+}
+.msg h2{
+    color:antiquewhite;
+}
+.msg p{
+    color:antiquewhite
+}
+footer {
+    background-color:rgb(243, 161, 61);
+}
+footer h3{
+    color:antiquewhite;
+    text-decoration: underline;
+}
+footer a{
+    color:antiquewhite;
+    text-decoration: none;
+}
+footer a:hover {
+    color:black;
+    text-decoration: underline;
+}
+#content {
+    max-width : 1600px;
+    margin: 0 auto;
+}
+nav a {
+    text-align: center;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#hero-msg h1, #hero-msg h4 {text-align: center;
+}
+.button-box{text-align: center;
+}
+main {text-align: center;
+}
+#background {
+    height: 725px;
+}
+.logo {
+    width: 80px;
+}
+.icon {
+    width: 80px;
+}
+#hero-img {
+    width: 100%;
+}
