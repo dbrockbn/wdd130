@@ -79,7 +79,6 @@
   display: grid;
   grid-template-columns:1fr 1fr;
   justify-items: auto;
-  grid-gap: 0 px;
 
 }
 .red3 {
