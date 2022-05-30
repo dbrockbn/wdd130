@@ -87,15 +87,14 @@
 } 
 
 .green3 {
-  width: 40%; 
-  height: 300px; 
+  width: 200px; 
+  height: 200px; 
   background-color: green;
-  grid-column: 1 / 3;
   
 } 
 .yellow3 {
-  width: 40%; 
-  height: 300px; 
+  width: 200; 
+  height: 200px; 
   background-color: gold; 
   margin-left: 60%;
 } 
