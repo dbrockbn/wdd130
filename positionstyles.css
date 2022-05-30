@@ -67,6 +67,7 @@
   width: 100px; 
   height: 100px; 
   background-color: blue; 
+  grid-area: 3 / 3 / 4 / 4;
 } 
 
 /* Activity 3 styles */ 
