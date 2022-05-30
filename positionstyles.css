@@ -33,6 +33,10 @@
 /* Activity 2 styles */ 
 .content2 {
   /* This is the parent of the activity 2 boxes. */
+  margin-top: -20px;
+  margin-left: -20px;
+  margin-right: 20 px;
+  margin-bottom: 20px;
 }
 .red2 {
   width: 100px; 
