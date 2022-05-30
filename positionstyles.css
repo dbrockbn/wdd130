@@ -52,13 +52,14 @@
   height: 100px; 
   background-color: green;
   margin: 25px;
-  grid-area: 1.5 / 1.5 / 2 / 2;
+  grid-area: 1 / 1 / 2 / 2;
 }  
 
 .yellow2 {
   width: 100px; 
   height: 100px; 
-  background-color: gold;   
+  background-color: gold;  
+  grid-area: 3 / 3 / 4 / 4; 
 } 
 
 .blue2 {
