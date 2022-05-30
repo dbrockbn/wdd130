@@ -34,7 +34,7 @@
 .content2 {
   /* This is the parent of the activity 2 boxes. */
   display: grid;
-  grid-template-columns: 100px 100px 100px 100px 100px;
+  grid-template-columns: 500px 100px 500px 100px 50o0px;
 
 
 }
