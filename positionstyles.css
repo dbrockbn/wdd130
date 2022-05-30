@@ -33,18 +33,18 @@
 /* Activity 2 styles */ 
 .content2 {
   /* This is the parent of the activity 2 boxes. */
-  margin-top: -20px;
-  margin-left: -20px;
-  margin-right: 20 px;
-  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px 100px;
+
+
 }
 .red2 {
   width: 100px; 
   height: 100px; 
   background-color: red; 
   grid-column-start: 1;
-  grid-column-end: three;
-  grid-row-start: row1-start;
+  grid-column-end: 3;
+  grid-row-start: 1;
   grid-row-end: 3;
 } 
 .green2 { 
@@ -52,8 +52,8 @@
   height: 100px; 
   background-color: green;
   grid-column-start: 2;
-  grid-column-end: four;
-  grid-row-start: row2-start;
+  grid-column-end: 4;
+  grid-row-start: 2;
   grid-row-end: 4;
 } 
 .yellow2 {
@@ -61,8 +61,8 @@
   height: 100px; 
   background-color: gold; 
   grid-column-start: 3;
-  grid-column-end: five;
-  grid-row-start: row3-start;
+  grid-column-end: 5;
+  grid-row-start: 3;
   grid-row-end: 5;
 
 } 
@@ -71,8 +71,8 @@
   height: 100px; 
   background-color: blue;
   grid-column-start: 4;
-  grid-column-end: six;
-  grid-row-start: row4-start;
+  grid-column-end: 6;
+  grid-row-start: 4;
   grid-row-end: 6;
 } 
 /* Activity 3 styles */ 
