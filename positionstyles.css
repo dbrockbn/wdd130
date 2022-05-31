@@ -110,29 +110,28 @@
 /* Activity 4 styles */ 
 .content4 {
   /* This is the parent of the activity 4 boxes. */
-  height: 400px;
+  height: 300px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 100px 100px 100px 100px;
 }
 .red4 {
-  width: 100px; 
-  height: 100px; 
+  width: 200px; 
+  height: 300px; 
   background-color: red; 
-  grid-row: 1 / 1;
 } 
 .green4 {
-  width: 100px; 
-  height: 50px; 
+  width: 200px; 
+  height: 100px; 
   background-color: green; 
 } 
 .yellow4 {
-  width: 100px; 
-  height: 50px; 
+  width: 200px; 
+  height: 100px; 
   background-color: gold; 
 } 
 .blue4 {
-  width: 100px; 
-  height: 50px; 
+  width: 200px; 
+  height: 100px; 
   background-color: blue; 
 } 
 /* Activity 5 styles */ 
