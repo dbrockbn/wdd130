@@ -1,19 +1,16 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url('<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Cinzel&family=Lobster&family=Syncopate&display=swap" rel="stylesheet">);
-
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Cinzel&family=Lobster&family=Syncopate&display=swap" rel="stylesheet">');
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #0E564A ;
-  --secondary-color:#C95E2C ;
+  --primary-color: #0E564A;
+  --secondary-color:#C95E2C;
   --accent1-color: #B02044;
-  --accent2-color:#0D454C ;
+  --accent2-color:#0D454C;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Lobster";
+  --heading-font: Lobster;
   --paragraph-font: Abril, Cinzel, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
@@ -21,9 +18,9 @@ Fonts are separated by a | */
   --headline-color-on-color: white; /* headlines on a colored background */ 
   --paragraph-color-on-white: #0E564A; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #0D454C ;
+  --paragraph-background-color: #0D454C;
   --nav-link-color: #B02044;
-  --nav-background-color:#D32727 ;
+  --nav-background-color:#D32727;
   --nav-hover-link-color: white;
   --nav-hover-background-color: #C95E2C;
 }
