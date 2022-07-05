@@ -177,6 +177,26 @@ nav a {
     width:50%;
     
 }
+#barrel-img{
+    width:25%;
+    margin-top: 800px
+    margin-left 200px
+    margin-bottom 300px;
+}
+#olla-img {
+    width: 20%
+    margin-top -200px;
+    margin-left:  900px;
+    margin-bottom: 700px;
+}
+
+
+#cart-img{
+    width: 20%
+    margin-top 20px;
+    margin-left: 500px;
+    
+}
 #rain-img{
     width: 50%;
 }
@@ -186,7 +206,9 @@ nav a {
 #storage-img{
     width: 50%;
 }
-
+#earthquake-img{
+    width: 50%;
+}
 nav {
     display: flex;
     justify-content: space-around;
@@ -226,21 +248,15 @@ a {
         font-size: 25px;
         color: #6f7364;
     }
-    .rivers-card, .camping-card, .rapids-card { 
-        margin: 50px auto;
-        width: 60%;
-    }
+ 
     #background {
         display: none;
     }
-    .mountains, .msg {
-        width: 80%;
-        display: block;
-        margin: 0 auto;
+  
     }
     footer {
         margin-top: 25px;
     }
 
-}
+
             
