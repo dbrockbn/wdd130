@@ -238,7 +238,10 @@ nav a {
 }
 #cart-img{
     width: 25%;
+    display: block;
+    margin-bottom: 10%;
 }
+
 #earthquake-img{
     margin-left: 38%;
     margin-top: 0%;
@@ -276,8 +279,7 @@ footer {
     background-color:#0E564A;
     padding: 25px 20px;
     margin-top: 200px;
-    float: inline-start;
-    display: flex;
+    display: block;
     justify-content: left;
     align-items: center;
 }
@@ -285,7 +287,6 @@ footer h3{
    word-spacing: 10px;
     color:antiquewhite;
     text-decoration: underline;
-    
 }
 footer a{
     color:antiquewhite;
@@ -296,7 +297,6 @@ footer a:hover {
     text-decoration: underline;
 }
 footer.social img {
-
     padding-top: 0px;
     padding-left: 5%;
     padding-right: 30%;
