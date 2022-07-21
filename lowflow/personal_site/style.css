@@ -1,12 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Cinzel&family=Lobster&family=Syncopate&display=swap" rel="stylesheet">');
 
+
+#hero {
+    display: grid;
+    margin-top: 1px;
+    
+}
 .home-title {
     color:#0c88e0;;
     font-size: 2em;
     margin-top: 10px;
+    display: grid;
 }
 h4 {
     color:rgb(81, 82, 99);
+    word-spacing: 15%;
 }
 body {
     background-color: #fcfbfb;
@@ -110,41 +118,6 @@ nav a {
     text-decoration: none;
     padding: 35px;
 }
-#hero {
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    margin-top: -100px;
-}
-
-#hero-box {
-    grid-column: 1/4;
-    grid-row: 1/3;
-    z-index: -1;
-}
-
-#hero-msg {
-    grid-column: 2/3;
-    grid-row: 1/2;
-    margin-top: 100px;
-}
-
-#hero-msg h1{
-    grid-column: 2/3;
-    grid-row: 1/2;
-    text-align: center;
-    
-}
-
-#hero-msg h4 {
-    text-align: center;
-
-}
-
-#background {
-
-    background-color:antiquewhite;
-    
-}
 .logo {
     width: 200px;
     text-align:left;
@@ -178,7 +151,7 @@ nav a {
    
 }
 #small-img {
-  
+    margin-left: 15%;
     max-width: 50%;
     border: 10px solid rgb(62, 136, 156);
     transition: transform .5s;
@@ -186,7 +159,7 @@ nav a {
     
 }
 #small2-img {
-    margin-left: 70%;
+    margin-left: 90%;
     margin-top: -45%;
     display: block;
     max-width: 50%;
@@ -198,7 +171,7 @@ nav a {
 
 
 #small3-img {
-    margin-left: 140%;
+    margin-left: 165%;
     margin-top: -80%;
     display: block;
     max-width: 50%;
@@ -206,18 +179,19 @@ nav a {
     transition: transform .5s;
     box-shadow: 5px 5px 10px grey
 }
-#small4-img {
-    margin-left: 210%;
+#small4-img {    
+    margin-left: 240%;
     margin-top: -72%;
     display: block;
     max-width: 50%;
     border: 10px solid rgb(62, 136, 156);
     transition: transform .5s;
     box-shadow: 5px 5px 10px grey;
-}
+ }
+   
 
 #small5-img {
-    margin-left: 280%;
+    margin-left: 320%;
     margin-top: -80%;
     display: block;
     max-width: 50%;
@@ -227,41 +201,65 @@ nav a {
 }
 
 #reduce-img{
-    width:50%;
-    
-}
-#barrel-img{
     width:25%;
-    margin-top: 800px
-    margin-left 200px
-    margin-bottom 300px;
+    display: block;
+    margin-left: 70%;
+    margin-top: .75%;
 }
 #olla-img {
-    width: 20%
-    margin-top -200px;
-    margin-left:  900px;
-    margin-bottom: 700px;
+    width: 20%;
+    display: block;
+    margin-top:-41.25%;
+    margin-left: 10%;
 }
-
-
+#xeriscaping-img {
+    width: 25%;
+    display: block;
+    margin-left: 70%;
+    margin-top: -12%;
+    margin-bottom: 6%;
+    
+}
+.msg h1{
+    display: block;
+    margin-left: 26%;
+}
 #cart-img{
-    width: 20%
+    width: 25%
     margin-top 20px;
     margin-left: 500px;
     
 }
 #rain-img{
-    width: 50%;
+    width: 25%;
+    display: block;
+    margin-left: 70%;
+    margin-top: 8%;
 }
 #cart-img{
     width: 25%;
 }
-#storage-img{
-    width: 50%;
-}
 #earthquake-img{
-    width: 50%;
+    margin-left: 38%;
+    margin-top: 0%;
+    display: block;
+    width: 27%;
 }
+
+#storage-img{
+    width: 27%;
+    margin-top: -20%;
+    margin-left: 73% ;
+    display: block;
+}
+#drought-img{
+    margin-left: 0%;
+    margin-top: 18%;
+    width: 30%
+}
+ .home-title {
+    margin-left: 25% ;
+ }
 nav {
     display: flex;
     justify-content: space-around;
@@ -276,14 +274,15 @@ a {
 
 footer {
     background-color:#0E564A;
-    padding: 25px 50px;
+    padding: 25px 20px;
     margin-top: 200px;
+    float: inline-start;
     display: flex;
-    justify-content: right;
+    justify-content: left;
     align-items: center;
 }
 footer h3{
-    display: inline;
+   word-spacing: 10px;
     color:antiquewhite;
     text-decoration: underline;
     
@@ -297,7 +296,10 @@ footer a:hover {
     text-decoration: underline;
 }
 footer.social img {
+
     padding-top: 0px;
+    padding-left: 5%;
+    padding-right: 30%;
 }
 
 @media screen and (max-width: 900px) {
@@ -305,8 +307,8 @@ footer.social img {
         display: block;
         height: auto;
     }
-    nav, footer {
-        flex-direction: row;
+    nav {
+        flex-direction: row-reverse;
     }
     nav a {
         display: block;
@@ -332,7 +334,7 @@ footer.social img {
   
     }
     footer {
-        margin-top: 25px;
+        margin-top: 5px;
     }
     @media screen and (max-width: 600px) {
         .topnav .search-container {
