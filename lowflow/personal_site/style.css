@@ -14,7 +14,6 @@
 }
 h4 {
     color:rgb(81, 82, 99);
-    word-spacing: 15%;
 }
 body {
     background-color: #fcfbfb;
@@ -226,8 +225,6 @@ nav a {
 }
 #cart-img{
     width: 25%
-    margin-top 20px;
-    margin-left: 500px;
     
 }
 #rain-img{
